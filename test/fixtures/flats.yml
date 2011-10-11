@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  stotal: MyString
+  slive: MyString
+  wc: MyString
+  floor: MyString
+  comment: MyText
+  cost: MyString
+
+two:
+  stotal: MyString
+  slive: MyString
+  wc: MyString
+  floor: MyString
+  comment: MyText
+  cost: MyString
