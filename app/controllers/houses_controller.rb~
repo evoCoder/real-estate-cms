@@ -6,7 +6,6 @@ class HousesController < ApplicationController
 
   def show
     @house = House.find(params[:id])
-    @flats = @house.flats
   end
 
   def new
