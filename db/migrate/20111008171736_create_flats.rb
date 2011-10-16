@@ -7,6 +7,7 @@ class CreateFlats < ActiveRecord::Migration
       t.string :floor
       t.text :comment
       t.string :cost
+      t.integer :house_id
 
       t.timestamps
     end
