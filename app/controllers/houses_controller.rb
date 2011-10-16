@@ -14,6 +14,7 @@ class HousesController < ApplicationController
   # GET /houses/1.json
   def show
     @house = House.find(params[:id])
+    @flats = @house.flats
 
     respond_to do |format|
       format.html # show.html.erb
