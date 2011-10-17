@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-  <%= f.hidden_field :house_id, :value => params[:house_id] %>
+  <%= f.hidden_field :house_id, :value =>  %>
   <div class="field">
     <%= f.label :stotal %><br />
     <%= f.text_field :stotal %>

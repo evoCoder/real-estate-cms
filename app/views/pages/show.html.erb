@@ -5,6 +5,12 @@
   <%= @page.title %>
 </p>
 
+<% if @page.id == 1 %>
+
+<%= render  :template => 'houses/index' %>
+
+<% end %>
+
 <p>
   <b>Content:</b>
   <%= @page.content %>
