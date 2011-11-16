@@ -1,22 +1,23 @@
 <p id="notice"><%= notice %></p>
-
+<%= image_tag @house.image_url(:thumb).to_s %>
 <p>
-  <b>Name:</b>
+  <b>Название:</b>
   <%= @house.name %>
 </p>
 
 <p>
-  <b>Description:</b>
+  <b>Описание:</b>
   <%= @house.description %>
 </p>
 
 <p>
-  <b>Address:</b>
+  <b>Адрес:</b>
   <%= @house.address %>
 </p>
 
 <%= link_to 'Add flat', new_house_flat_path(@house.id)  %>
 <br />
+
 <%= link_to 'Edit', edit_house_path(@house) %> |
 <%= link_to 'Back', houses_path %>
 
